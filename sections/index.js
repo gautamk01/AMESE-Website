@@ -7,6 +7,7 @@ import AboutUs from "./AboutUs";
 import GroupMembers from "./GroupMembers";
 import Mainpage from "./Mainpage";
 import Footer from "./Footer";
+import Teamup from "./Myteam/team";
 export {
   Nava,
   Main,
@@ -17,4 +18,5 @@ export {
   GroupMembers,
   AboutUs,
   Footer,
+  Teamup,
 };
