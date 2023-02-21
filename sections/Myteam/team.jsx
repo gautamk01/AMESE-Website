@@ -25,28 +25,11 @@ const Teamup = () => {
         {/* <!-- Carousel wrapper --> */}
         <div className="relative h-[344px]  overflow-hidden rounded-lg md:h-[448px]">
           {/* <!-- Item 1 --> */}
-          {<Wrapcompo val={1} />}
+          {<Wrapcompo val={0} changer={change} />}
           {/* <!-- Item 2 --> */}
-          <div
-            className={`duration-700 ease-in-out absolute inset-0 transition-transform transform ${
-              change == 1 ? "translate-x-0 z-20" : "z-10 translate-x-full"
-            } `}
-            data-carousel-item
-          >
-            <img
-              src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
+          {<Wrapcompo val={1} changer={change} />}
           {/* <!-- Item 3 --> */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
-            <img
-              src="/docs/images/carousel/carousel-3.svg"
-              className="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
-              alt="..."
-            />
-          </div>
+          {<Wrapcompo val={2} changer={change} />}
         </div>
         {/* <!-- Slider indicators --> */}
         <div className="absolute z-30 flex space-x-3 -translate-x-1/2 bottom-5 left-1/2">

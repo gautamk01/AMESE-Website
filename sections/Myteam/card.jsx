@@ -1,11 +1,12 @@
 const Wrapcompo = (props) => {
-  console.log(props.val);
+  console.log(props.changer);
   return (
     <div
       className={`duration-700 ease-in-out absolute inset-0 transition-transform transform ${
-        change == props.val ? "translate-x-0 z-20" : "z-10 translate-x-full"
+        props.changer == props.val
+          ? "translate-x-0 z-20"
+          : "z-10 translate-x-full"
       }`}
-      data-carousel-item
     >
       <div className="h-[100%] w-[100%] flex  flex-col justify-center items-center sm:flex-row">
         <div className="sm:h-[100%] sm:w-[30%] sm:bg-black h-[60%] w-[100%] bg-black"></div>
