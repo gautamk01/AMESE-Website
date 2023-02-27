@@ -5,36 +5,7 @@ function Footer() {
     <footer className="w-full bg-gray-100 dark:bg-gray-900 py-16">
       <div className="md:px-12 lg:px-28">
         <div className="container m-auto space-y-6 text-gray-600 dark:text-gray-300">
-          <img
-            src="images/logo.svg"
-            alt="logo tailus"
-            className="m-auto w-40"
-          />
-          <ul
-            role="list"
-            className="flex flex-col items-center justify-center gap-4 py-4 sm:flex-row sm:gap-8"
-          >
-            <li role="listitem">
-              <a href="#" className="hover:text-primary">
-                Home
-              </a>
-            </li>
-            <li role="listitem">
-              <a href="#" className="hover:text-primary">
-                Features
-              </a>
-            </li>
-            <li role="listitem">
-              <a href="#" className="hover:text-primary">
-                Get started
-              </a>
-            </li>
-            <li role="listitem">
-              <a href="#" className="hover:text-primary">
-                About us
-              </a>
-            </li>
-          </ul>
+          <img src="worldwide.png" alt="logo tailus" className="m-auto w-4" />
           <div className="m-auto flex w-max items-center justify-between space-x-4">
             <a href="tel:+243996660436" aria-label="call">
               <svg
@@ -83,7 +54,8 @@ function Footer() {
 
           <div className="text-center">
             <span className="text-sm tracking-wide">
-              Copyright © tailus <span id="year"></span> | All right reserved
+              Copyright © AMESE 2023 <span id="year"></span> | All right
+              reserved
             </span>
           </div>
         </div>
