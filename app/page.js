@@ -18,7 +18,7 @@ export default function Home() {
       <Mainpage />
       <AboutUs />
       <GroupMembers />
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
